@@ -10,6 +10,7 @@ image_angle = image_angle - 5;
 
 if(keyboard_check(vk_up)){
 motion_add(image_angle, 0.05);
+effect_create_below(ef_flare, x, (y+30), 1, c_white);
 }
 
 if(keyboard_check_pressed(vk_space)){
